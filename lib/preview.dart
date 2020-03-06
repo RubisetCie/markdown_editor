@@ -57,7 +57,7 @@ class MdPreviewState extends State<MdPreview> with AutomaticKeepAliveClientMixin
                 ),
               ),
             ),
-            blockquotePadding: const EdgeInset.only(top: 15),
+            blockquotePadding: const EdgeInsets.only(top: 15),
           ),
           onTapLink: (href) {
             print(href);
